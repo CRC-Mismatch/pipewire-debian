@@ -57,6 +57,8 @@ usr/share/alsa-card-profile
 usr/share/man/man1/pipewire.*
 usr/share/man/man1/pipewire-pulse.*
 usr/share/man/man1/pw-cat.*
+usr/share/man/man1/pw-dump.*
+usr/share/man/man1/pw-loopback.*
 usr/share/man/man1/pw-cli.*
 usr/share/man/man1/pw-config.*
 usr/share/man/man1/pw-dot.*
@@ -67,3 +69,7 @@ usr/share/man/man1/pw-mon.*
 usr/share/man/man1/pw-profiler.*
 usr/share/man/man1/pw-top.*
 usr/share/man/man5
+usr/share/man/man7
+usr/share/man/man1/pw-reserve*
+usr/share/man/man1/pw-v4l2*
+usr/share/man/man1/spa-*

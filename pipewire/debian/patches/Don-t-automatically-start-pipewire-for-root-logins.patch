@@ -16,7 +16,7 @@ Index: pipewire_0.3.40.r59.g1b06d4d/src/daemon/systemd/user/pipewire.socket
 +++ pipewire_0.3.40.r59.g1b06d4d/src/daemon/systemd/user/pipewire.socket	2021-11-27 16:14:50.098999745 +0530
 @@ -1,5 +1,6 @@
  [Unit]
- Description=PipeWire Multimedia System Socket
+ Description=PipeWire Multimedia System Sockets
 +ConditionUser=!root
  
  [Socket]

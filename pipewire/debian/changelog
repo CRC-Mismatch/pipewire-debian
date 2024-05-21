@@ -1,29 +1,112 @@
-pipewire (0.3.82-4~ubuntu20.04) focal; urgency=medium
+pipewire (1.0.6-7~ubuntu24.04) noble; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
-    - pipewire-vulkan new pkg
-    - for focal disable pipewire-vulkan
-    - package pipewire-vulkan will be a empty pkg for above reason for focal
+    - None
 
   Pipewire -
 
     - For more : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
+    
 
+ -- Sourav Das <souravdas142@gmail.com>  Tue, 21 May 2024 08:51:49 +0530
+
+pipewire (1.0.3-1~ubuntu20.04) focal; urgency=medium
+
+  Debian Package - 
+
+    - None
+
+  Pipewire -
+
+    - For more : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
+
+  .
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
+  .
+  .
+    
+
+ -- Sourav Das <souravdas142@gmail.com>  Tue, 20 Feb 2024 22:54:32 +0530
+
+pipewire (1.0.0-1~ubuntu22.04) jammy; urgency=medium
+
+  Debian Package - 
+
+    - None
+
+  Pipewire -
+
+    - For more : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
+
+  .
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
+  .
+  .
+    
+
+ -- Sourav Das <souravdas142@gmail.com>  Fri, 01 Dec 2023 07:21:46 +0530
+
+pipewire (0.3.84-1~ubuntu22.04) jammy; urgency=medium
+
+  Debian Package - 
+
+    - None
+
+  Pipewire -
+
+    - For more : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
+
+  .
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
+  .
+  .
+    
+
+ -- Sourav Das <souravdas142@gmail.com>  Sat, 04 Nov 2023 08:50:11 +0530
+
+pipewire (0.3.82-4~ubuntu22.04) jammy; urgency=medium
+
+  Debian Package - 
+
+    - pipewire-vulkan new pkg
+    - for focal disable pipewire-vulkan
+
+  Pipewire -
+
+    - For more : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
+
+  .
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
+  .
+  .
+    
 
  -- Sourav Das <souravdas142@gmail.com>  Sat, 14 Oct 2023 05:01:45 +0530
 
 pipewire (0.3.81-1~ubuntu22.04) jammy; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - none
 
@@ -32,19 +115,19 @@ pipewire (0.3.81-1~ubuntu22.04) jammy; urgency=medium
     - For more : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
-
+    
 
  -- Sourav Das <souravdas142@gmail.com>  Sat, 07 Oct 2023 22:47:01 +0530
 
 pipewire (0.3.79-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - enable modemmanager
 
@@ -53,19 +136,19 @@ pipewire (0.3.79-1~ubuntu20.04) focal; urgency=medium
     - For more : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
-
+    
 
  -- Sourav Das <souravdas142@gmail.com>  Thu, 07 Sep 2023 07:52:04 +0530
 
 pipewire (0.3.78-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - enable modemmanager
 
@@ -74,19 +157,19 @@ pipewire (0.3.78-1~ubuntu20.04) focal; urgency=medium
     - For more : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
-
+    
 
  -- Sourav Das <souravdas142@gmail.com>  Thu, 24 Aug 2023 07:52:04 +0530
 
 pipewire (0.3.76-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - enable modemmanager
 
@@ -95,19 +178,19 @@ pipewire (0.3.76-1~ubuntu20.04) focal; urgency=medium
     - For more : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
-
+    
 
  -- Sourav Das <souravdas142@gmail.com>  Fri, 28 Jul 2023 21:12:30 +0530
 
 pipewire (0.3.71-2~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - enable modemmanager
 
@@ -116,19 +199,19 @@ pipewire (0.3.71-2~ubuntu20.04) focal; urgency=medium
     - For more : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
-
+    
 
  -- Sourav Das <souravdas142@gmail.com>  Mon, 29 May 2023 15:43:37 +0530
 
 pipewire (0.3.68-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - build with liblc3 enabled
     - build with latest roc-toolkit (0.2.1) with roc-toolkit/openfec
@@ -139,19 +222,19 @@ pipewire (0.3.68-1~ubuntu20.04) focal; urgency=medium
     - For more : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
-
+    
 
  -- Sourav Das <souravdas142@gmail.com>  Thu, 06 Apr 2023 20:38:13 +0530
 
 pipewire (0.3.67-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - build with liblc3 enabled
     - build with latest roc-toolkit (0.2.1) with roc-toolkit/openfec
@@ -162,19 +245,19 @@ pipewire (0.3.67-1~ubuntu20.04) focal; urgency=medium
     - For more : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
-
+    
 
  -- Sourav Das <souravdas142@gmail.com>  Thu, 09 Mar 2023 22:59:16 +0530
 
 pipewire (0.3.66-8~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - build with liblc3 enabled
     - build with latest roc-toolkit (0.2.1) with roc-toolkit/openfec
@@ -185,19 +268,19 @@ pipewire (0.3.66-8~ubuntu20.04) focal; urgency=medium
     - For more : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
-
+    
 
  -- Sourav Das <souravdas142@gmail.com>  Fri, 17 Feb 2023 08:50:03 +0530
 
 pipewire (0.3.64.r58.gd83f252-5~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - build with liblc3 enabled
     - build with latest roc-toolkit (0.2.1) with roc-toolkit/openfec
@@ -208,22 +291,22 @@ pipewire (0.3.64.r58.gd83f252-5~ubuntu20.04) focal; urgency=medium
     - For more : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
-
+    
 
  -- Sourav Das <souravdas142@gmail.com>  Mon, 23 Jan 2023 18:57:28 +0530
 
 pipewire (0.3.63.r1.g7758240-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - pipewire-audio-client-library splits into pipewire-{jack,alsa}
-    - pipewire-{libcamera,v4l2} splits from libspa-0.2-modules
+    - pipewire-{libcamera,v4l2} splits from libspa-0.2-modules 
       and libpipewire-0.3-modules
     - build with liblc3 enabled
 
@@ -232,22 +315,22 @@ pipewire (0.3.63.r1.g7758240-1~ubuntu20.04) focal; urgency=medium
     - For more : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
-
+    
 
  -- Sourav Das <souravdas142@gmail.com>  Sat, 24 Dec 2022 22:23:57 +0530
 
 pipewire (0.3.60.r2.g518ccdf-5~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - pipewire-audio-client-library splits into pipewire-{jack,alsa}
-    - pipewire-{libcamera,v4l2} splits from libspa-0.2-modules
+    - pipewire-{libcamera,v4l2} splits from libspa-0.2-modules 
       and libpipewire-0.3-modules
     - build with liblc3 enabled
 
@@ -256,23 +339,23 @@ pipewire (0.3.60.r2.g518ccdf-5~ubuntu20.04) focal; urgency=medium
     - For more : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
-
+    
 
  -- Sourav Das <souravdas142@gmail.com>  Fri, 11 Nov 2022 14:11:44 +0530
 
 pipewire (0.3.57.r4.gf957435-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - With several fixes from master
-
-  PipeWire -
+ 
+  PipeWire - 
     - Support masking of conf.d/ files. (#2629)
     - Use org.freedesktop.portal.Realtime when available. This does the
       correct PID/TID mappings to make realtime also work from flatpaks.
@@ -289,10 +372,10 @@ pipewire (0.3.57.r4.gf957435-1~ubuntu20.04) focal; urgency=medium
     - For more : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
 
@@ -300,11 +383,11 @@ pipewire (0.3.57.r4.gf957435-1~ubuntu20.04) focal; urgency=medium
 
 pipewire (0.3.56.r34.gb1b8b09-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - With several fixes from master
-
-  PipeWire -
+ 
+  PipeWire - 
     - A critical bug that could crash JACK apps was fixed.
     - Some more regressions in audiomixer were fixed. This should fix crackling
       and stuttering in some cases as well as some channel mapping regressions.
@@ -314,10 +397,10 @@ pipewire (0.3.56.r34.gb1b8b09-1~ubuntu20.04) focal; urgency=medium
     - For more : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
 
@@ -328,11 +411,11 @@ pipewire (0.3.56.r34.gb1b8b09-1~ubuntu20.04) focal; urgency=medium
 
 pipewire (0.3.55-1~ubuntu21.10) impish; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - With several fixes from master
-
-  PipeWire -
+ 
+  PipeWire - 
     - Some critical bugs in the new audioconvert were fixed. The old
       adapter had internal buffering that was abused in some places.
     - The bluetooth sources were rewritten using a ringbuffer to make them
@@ -349,10 +432,10 @@ pipewire (0.3.55-1~ubuntu21.10) impish; urgency=medium
   .
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
 
@@ -363,11 +446,11 @@ pipewire (0.3.55-1~ubuntu21.10) impish; urgency=medium
 
 pipewire (0.3.53.r23.ge1cb7c6-1~ubuntu21.10) impish; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - With several fixes from master
-
-  PipeWire -
+ 
+  PipeWire - 
     - The 44.1KHz samplerate was removed again from the defaults, it caused
       all kinds of problems with various hardware.
     - The ALSA plugin should now be able to deal with unsupported samplerates
@@ -385,10 +468,10 @@ pipewire (0.3.53.r23.ge1cb7c6-1~ubuntu21.10) impish; urgency=medium
   .
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
 
@@ -398,15 +481,15 @@ pipewire (0.3.53.r23.ge1cb7c6-1~ubuntu21.10) impish; urgency=medium
 
 pipewire (0.3.52.r2.g9255cfb-10~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - move out pipewire-media-session to a new package
     - move out pipewire-x11-bell to a new package (=> NEW)
     - Recommending using wireplumber. add ppa :
       ppa:pipewire-debian/wireplumber-upstream
     - Recommending rt-kit and dbus-session-managers
-
-  PipeWire -
+ 
+  PipeWire - 
 
     - Add 44.1KHz to allowed samplerates. The server can now switch by
       default between 48KHz and 44.1KHz.
@@ -419,10 +502,10 @@ pipewire (0.3.52.r2.g9255cfb-10~ubuntu20.04) focal; urgency=medium
   .
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
 
@@ -430,15 +513,15 @@ pipewire (0.3.52.r2.g9255cfb-10~ubuntu20.04) focal; urgency=medium
 
 pipewire (0.3.51.r80.g3e7f975-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - move out pipewire-media-session to a new package
     - move out pipewire-x11-bell to a new package (=> NEW)
     - Recommending using wireplumber. add ppa :
       ppa:pipewire-debian/wireplumber-upstream
     - Recommending rt-kit and dbus-session-managers
-
-  PipeWire -
+ 
+  PipeWire - 
 
     - Improved graph reconfiguration.
     - Extra configuration options for streams and filters with config
@@ -454,10 +537,10 @@ pipewire (0.3.51.r80.g3e7f975-1~ubuntu20.04) focal; urgency=medium
   .
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
 
@@ -466,15 +549,15 @@ pipewire (0.3.51.r80.g3e7f975-1~ubuntu20.04) focal; urgency=medium
 
 pipewire (0.3.50.r15.gc73c852-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - move out pipewire-media-session to a new package
     - move out pipewire-x11-bell to a new package (=> NEW)
     - Recommending using wireplumber. add ppa :
       ppa:pipewire-debian/wireplumber-upstream
     - Recommending rt-kit and dbus-session-managers
-
-  PipeWire -
+ 
+  PipeWire - 
 
     - pw-stream can now report more timing information and can suggest
       the optimal number of samples to queue for playback.
@@ -490,10 +573,10 @@ pipewire (0.3.50.r15.gc73c852-1~ubuntu20.04) focal; urgency=medium
   .
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
 
@@ -502,14 +585,14 @@ pipewire (0.3.50.r15.gc73c852-1~ubuntu20.04) focal; urgency=medium
 
 pipewire (0.3.49-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - move out pipewire-media-session to a new package
     - Recommending using wireplumber. add ppa :
       ppa:pipewire-debian/wireplumber-upstream
     - Recommending rt-kit and dbus-session-managers
-
-  PipeWire -
+ 
+  PipeWire - 
 
     - Sample rate switching should work again.
     - pw-dot can now use the output of pw-dump to render a graph.
@@ -524,10 +607,10 @@ pipewire (0.3.49-1~ubuntu20.04) focal; urgency=medium
   .
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
 
@@ -535,14 +618,14 @@ pipewire (0.3.49-1~ubuntu20.04) focal; urgency=medium
 
 pipewire (0.3.48.r23.g8673f8c-3~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - move out pipewire-media-session to a new package
     - Recommending using wireplumber. add ppa :
       ppa:pipewire-debian/wireplumber-upstream
     - Recommending rt-kit and dbus-session-managers
-
-  PipeWire -
+ 
+  PipeWire - 
 
     - Fix IEC958 passthrough again.
     - Fix pulse-server crashes when playing a sample.
@@ -556,10 +639,10 @@ pipewire (0.3.48.r23.g8673f8c-3~ubuntu20.04) focal; urgency=medium
   .
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
 
@@ -567,14 +650,14 @@ pipewire (0.3.48.r23.g8673f8c-3~ubuntu20.04) focal; urgency=medium
 
 pipewire (0.3.47-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - move out pipewire-media-session to a new package
     - Recommending using wireplumber. add ppa :
       ppa:pipewire-debian/wireplumber-upstream
     - Recommending rt-kit and dbus-session-managers
-
-  PipeWire -
+ 
+  PipeWire - 
 
     - Fixes a bug in pulse-server that caused cached notifications
       to play multiple times. (#2142)
@@ -601,10 +684,10 @@ pipewire (0.3.47-1~ubuntu20.04) focal; urgency=medium
   .
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
 
@@ -612,14 +695,14 @@ pipewire (0.3.47-1~ubuntu20.04) focal; urgency=medium
 
 pipewire (0.3.45.r27.g136989e-1~ubuntu21.10) impish; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - move out pipewire-media-session to a new package
     - Recommending using wireplumber. add ppa :
       ppa:pipewire-debian/wireplumber-upstream
     - Recommending rt-kit and dbus-session-managers
-
-  PipeWire -
+ 
+  PipeWire - 
 
     - Zoom, telegram and other apps should be able to play sound again.
     - Implement a better way to force and lock JACK buffersize.
@@ -633,10 +716,10 @@ pipewire (0.3.45.r27.g136989e-1~ubuntu21.10) impish; urgency=medium
   .
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
 
@@ -644,14 +727,14 @@ pipewire (0.3.45.r27.g136989e-1~ubuntu21.10) impish; urgency=medium
 
 pipewire (0.3.43.r151.g2e1a08e-1~ubuntu21.04) hirsute; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - move out pipewire-media-session to a new package
     - Recommending using wireplumber. add ppa :
       ppa:pipewire-debian/wireplumber-upstream
     - Recommending rt-kit and dbus-session-managers
-
-  PipeWire -
+ 
+  PipeWire - 
 
     - Flatpak apps such as Ardour can now remove links again.
     - Many fixes to pulse-server. Memory usage should be improved. Some
@@ -664,10 +747,10 @@ pipewire (0.3.43.r151.g2e1a08e-1~ubuntu21.04) hirsute; urgency=medium
     - For more : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
 
   .
-  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'
-    to get it add another PPA,
-    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'
-    For more instruction read : https://pipewire-debian.github.io
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
   .
   .
 
@@ -675,14 +758,14 @@ pipewire (0.3.43.r151.g2e1a08e-1~ubuntu21.04) hirsute; urgency=medium
 
 pipewire (0.3.42.r46.g65aadeb-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - move out pipewire-media-session to a new package
     - Recommending using wireplumber. add ppa :
       ppa:pipewire-debian/wireplumber-upstream
     - Recommending rt-kit and dbus-session-managers
-
-  PipeWire -
+ 
+  PipeWire - 
 
   0.3.41 -
     - Improved compatibility for flatpaks. Flatpaks with newer PipeWire
@@ -716,14 +799,14 @@ pipewire (0.3.42.r46.g65aadeb-1~ubuntu20.04) focal; urgency=medium
 
 pipewire (0.3.41-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - move out pipewire-media-session to a new package
     - Recommending using wireplumber. add ppa :
       ppa:pipewire-debian/wireplumber-upstream
     - Recommending rt-kit and dbus
-
-  PipeWire -
+ 
+  PipeWire - 
 
     - Improved compatibility for flatpaks. Flatpaks with newer PipeWire
       version can connect to an older server in all cases.
@@ -742,13 +825,13 @@ pipewire (0.3.41-1~ubuntu20.04) focal; urgency=medium
 
 pipewire (0.3.40.r59.g1b06d4d-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - move out pipewire-media-session to a new package
     - Recommending using wireplumber. add ppa :
       ppa:pipewire-debian/wireplumber-upstream
-
-  PipeWire -
+ 
+  PipeWire - 
 
     - Producers and consumers can now incrementally negotiate a format
       by narrowing down the options. This can be used to select an optimal
@@ -766,11 +849,11 @@ pipewire (0.3.40.r59.g1b06d4d-1~ubuntu20.04) focal; urgency=medium
 
 pipewire (0.3.38-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - Attempt to build with libcamera support
-
-  PipeWire -
+ 
+  PipeWire - 
 
     - Topic based logging was added to improve debugging.
     - An off-by-one error was fixed in the audio resampler that could
@@ -783,11 +866,11 @@ pipewire (0.3.38-1~ubuntu20.04) focal; urgency=medium
 
 pipewire (0.3.37-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - First attempt to enable libcamera
-
-  PipeWire -
+ 
+  PipeWire - 
 
     - Capture and playback is now avoided even more on unavailable
       devices. This should fix some issues where an unusable microphone
@@ -805,11 +888,11 @@ pipewire (0.3.37-1~ubuntu20.04) focal; urgency=medium
 pipewire (0.3.36-1~ubuntu20.04) focal; urgency=medium
 
 
-  Debian Package -
+  Debian Package - 
 
     - None
-
-  PipeWire -
+ 
+  PipeWire - 
 
     - A quick update with mostly only bugfixes and small improvements.
     - Capture and playback is now avoided on unavailable devices. This
@@ -829,11 +912,11 @@ pipewire (0.3.36-1~ubuntu20.04) focal; urgency=medium
 
 pipewire (0.3.35-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - None
-
-  PipeWire -
+ 
+  PipeWire - 
 
     - S/PDIF passthrough over optical or HDMI is now implemented.
     - Some critical fixes to MIDI, draining of streams and various
@@ -849,11 +932,11 @@ pipewire (0.3.35-1~ubuntu20.04) focal; urgency=medium
 
 pipewire (0.3.33-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - use libfreeaptx instead libopenaptx as pipewire change dependencies
 
-  PipeWire -
+  PipeWire - 
 
     - Better support for virtual sinks/sources for Pro Audio
       profile.
@@ -871,13 +954,13 @@ pipewire (0.3.33-1~ubuntu20.04) focal; urgency=medium
 
 pipewire (0.3.32-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - roc-toolkit splitted into libroc, libroc-dev, roc
 
     - openfec renamed to libopenfec, bump to 1.4.2.4 (roc-streaming fork)
 
-  PipeWire -
+  PipeWire - 
 
     - Real-time priority handling for threads was reworked. Freewheeling
       will now drop RT priorities to avoid being killed.
@@ -893,7 +976,7 @@ pipewire (0.3.32-1~ubuntu20.04) focal; urgency=medium
 
 pipewire (0.3.31-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - Reverted "pulseaudio-module-bluetooth conflicts with PipeWire-pulse #17"
       Give feedback whether should I conflict the same or not?
@@ -901,8 +984,8 @@ pipewire (0.3.31-1~ubuntu20.04) focal; urgency=medium
 
     - roc-toolkit, openfec package added.
 
-  PipeWire -
-
+  PipeWire - 
+    
     - Fixes for alsa-lib 1.2.5
     - New pulseaudio modules: module-avahi-zeroconf,
       module-pipe-source, module-roc-sink, module-roc-source
@@ -922,14 +1005,14 @@ pipewire (0.3.31-1~ubuntu20.04) focal; urgency=medium
 
 pipewire (0.3.30-2~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - Reverted "pulseaudio-module-bluetooth conflicts with PipeWire-pulse #17"
       Give feedback whether should I conflict the same or not?
       For more see : https://github.com/pipewire-debian/pipewire-debian/issues/17
 
-  PipeWire -
-
+  PipeWire - 
+    
     - Recording from a monitor port should work again.
     - JACK applications should now be more stable again.
     - Freewheeling should not lock up anymore.
@@ -942,13 +1025,13 @@ pipewire (0.3.30-2~ubuntu20.04) focal; urgency=medium
 
 pipewire (0.3.30-1~ubuntu20.04) focal; urgency=medium
 
-  Debian Package -
+  Debian Package - 
 
     - From now, pulseaudio-module-bluetooth conflicts with PipeWire-pulse #17
     -  (For more see : https://github.com/pipewire-debian/pipewire-debian/issues/17)
 
-  PipeWire -
-
+  PipeWire - 
+    
     - Recording from a monitor port should work again.
     - JACK applications should now be more stable again.
     - Freewheeling should not lock up anymore.
@@ -961,8 +1044,8 @@ pipewire (0.3.30-1~ubuntu20.04) focal; urgency=medium
 
 pipewire (0.3.29-2~ubuntu20.04) focal; urgency=medium
 
-  - Rebase on debian upstream agian [some portion]
-    (At least they made changes, that make sense something, not fully)
+  - Rebase on debian upstream agian [some portion] 
+    (At least they made changes, that make sense something, not fully) 
   - Split pipewire-media-session from pipewire-bin package
   - Split pipewire-pulse from pipewire-bin package
   - Latency reporting is now implemented.
@@ -972,7 +1055,7 @@ pipewire (0.3.29-2~ubuntu20.04) focal; urgency=medium
   - Fix 100% volume issue when monitor suspends or profile
     changes in some cases.
   - Bugfixes and crashes
-
+  
 
 
  -- Sourav Das <souravdas142@gmail.com>  Thu, 03 Jun 2021 18:28:08 +0530
