@@ -3,8 +3,10 @@ Description: These tests have never succeeded, so not a regression.
 Author: Dylan Aïssi <daissi@debian.org>
 Forwarded: not-needed
 
---- a/test/ipc/meson.build
-+++ b/test/ipc/meson.build
+Index: libcamera/test/ipc/meson.build
+===================================================================
+--- libcamera.orig/test/ipc/meson.build
++++ libcamera/test/ipc/meson.build
 @@ -1,8 +1,8 @@
  # SPDX-License-Identifier: CC0-1.0
  
@@ -16,8 +18,10 @@ Forwarded: not-needed
  ]
  
  foreach test : ipc_tests
---- a/test/log/meson.build
-+++ b/test/log/meson.build
+Index: libcamera/test/log/meson.build
+===================================================================
+--- libcamera.orig/test/log/meson.build
++++ libcamera/test/log/meson.build
 @@ -1,8 +1,8 @@
  # SPDX-License-Identifier: CC0-1.0
  
@@ -29,8 +33,10 @@ Forwarded: not-needed
  ]
  
  foreach test : log_test
---- a/test/process/meson.build
-+++ b/test/process/meson.build
+Index: libcamera/test/process/meson.build
+===================================================================
+--- libcamera.orig/test/process/meson.build
++++ libcamera/test/process/meson.build
 @@ -1,7 +1,7 @@
  # SPDX-License-Identifier: CC0-1.0
  
@@ -40,9 +46,11 @@ Forwarded: not-needed
  ]
  
  foreach test : process_tests
---- a/test/meson.build
-+++ b/test/meson.build
-@@ -56,7 +56,7 @@
+Index: libcamera/test/meson.build
+===================================================================
+--- libcamera.orig/test/meson.build
++++ libcamera/test/meson.build
+@@ -57,7 +57,7 @@ internal_tests = [
      {'name': 'event', 'sources': ['event.cpp']},
      {'name': 'event-dispatcher', 'sources': ['event-dispatcher.cpp']},
      {'name': 'event-thread', 'sources': ['event-thread.cpp']},
@@ -51,7 +59,7 @@ Forwarded: not-needed
      {'name': 'flags', 'sources': ['flags.cpp']},
      {'name': 'hotplug-cameras', 'sources': ['hotplug-cameras.cpp']},
      {'name': 'message', 'sources': ['message.cpp']},
-@@ -64,12 +64,12 @@
+@@ -65,12 +65,12 @@ internal_tests = [
      {'name': 'object-delete', 'sources': ['object-delete.cpp']},
      {'name': 'object-invoke', 'sources': ['object-invoke.cpp']},
      {'name': 'pixel-format', 'sources': ['pixel-format.cpp']},

@@ -9,6 +9,13 @@ include /usr/share/dpkg/architecture.mk
 %:
 	dh $@
 
+
+ifneq (,$(filter i386 i686,$(DEB_HOST_ARCH)))
+LTTNG=disabled
+else
+LTTNG=enabled
+endif
+
 override_dh_auto_configure:
 	dh_auto_configure -- \
 		--libexecdir=lib/${DEB_HOST_MULTIARCH} \
@@ -17,6 +24,7 @@ override_dh_auto_configure:
 		-Dpycamera=disabled \
 		-Dgstreamer=enabled \
 		-Dv4l2=true \
+		-Dtracing=$(LTTNG) \
 		-Dtest=true \
 		$(empty)
 

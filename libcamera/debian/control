@@ -25,14 +25,14 @@ Build-Depends: debhelper-compat (= 12),
                libjs-jquery <!nodoc>,
                libjs-sphinxdoc <!nodoc>,
                libjs-underscore <!nodoc>,
-               liblttng-ust-dev [linux-any],
+               liblttng-ust-dev [linux-any] | libspa-0.2-bluetooth,
                libsdl2-dev <!pkg.libcamera.nosdl>,
                libsdl2-image-dev,
                libtiff-dev,
                libudev-dev [linux-any],
                libunwind-dev,
                libyaml-dev,
-               lttng-tools,
+               lttng-tools | libpipewire-0.3-dev,
                meson (>= 0.56),
                openssl,
                pkgconf | pkg-config,
@@ -42,9 +42,9 @@ Build-Depends: debhelper-compat (= 12),
                python3-sphinx <!nodoc>,
                python3-yaml,
                qtbase5-dev <!pkg.libcamera.noqt>,
-               libqt5core5a,
-               libqt5gui5,
-               libqt5widgets5,
+               libqt5core5a | libqt5core5t64,
+               libqt5gui5 | libqt5gui5t64,
+               libqt5widgets5 | libqt5widgets5t64,
                qttools5-dev-tools,
                texlive-latex-extra,
 Standards-Version: 4.5.1
@@ -92,8 +92,8 @@ Depends: ${misc:Depends},
          ${shlibs:Depends}
 Pre-Depends: ${misc:Pre-Depends}
 Suggests: libcamera-ipa
-Breaks: libcamera0 (<< 0.0.3-1~)
-Replaces: libcamera0 (<< 0.0.3-1~)
+Breaks: libcamera0 (<< 0.0.3-1~), libcamera0.1 (<= 0.1.0-3ubuntu1)
+Replaces: libcamera0 (<< 0.0.3-1~), libcamera0.1 (<= 0.1.0-3ubuntu1)
 Multi-Arch: same
 Description: complex camera support library
  libcamera is a complex camera support library which handles low-level

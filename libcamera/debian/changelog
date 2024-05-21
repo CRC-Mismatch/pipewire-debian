@@ -1,9 +1,31 @@
-libcamera (0.ver1.0.r0.g668a5e6-4~ubuntu20.04) focal; urgency=medium
+libcamera (0.ver2.0.r0.g89227a42-6~ubuntu24.04) noble; urgency=medium
+
+  * New upstream version 0.2.0
+  * Bump SONAME to libcamera0.2.0
+
+ -- Sourav Das <souravdas142@gmail.com>  Wed, 15 May 2024 20:13:16 +0530
+
+libcamera (0.ver2.0.r0.g89227a42-3~ubuntu23.10) mantic; urgency=medium
+
+  * New upstream version 0.2.0
+  * Bump SONAME to libcamera0.2.0
+
+ -- Sourav Das <souravdas142@gmail.com>  Tue, 20 Feb 2024 10:54:06 +0530
+
+libcamera (0.ver1.0.r0.g668a5e6-3~ubuntu23.10) mantic; urgency=medium
+
+  * New upstream version 0.1.0
+  * Bump SONAME to libcamera0.1.0
+  * Replace and Brakes libcamera0.1 (<= 0.1.0-3ubuntu1)
+
+ -- Sourav Das <souravdas142@gmail.com>  Sat, 04 Nov 2023 15:31:37 +0530
+
+libcamera (0.ver1.0.r0.g668a5e6-1~ubuntu23.10) mantic; urgency=medium
 
   * New upstream version 0.1.0
   * Bump SONAME to libcamera0.1.0
 
- -- Sourav Das <souravdas142@gmail.com>  Sun, 30 Jul 2023 10:45:46 +0530
+ -- Sourav Das <souravdas142@gmail.com>  Thu, 24 Aug 2023 07:29:54 +0530
 
 libcamera (0.v5.r0.gfb44403f-1~ubuntu20.04) focal; urgency=medium
 
