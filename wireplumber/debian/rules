@@ -14,3 +14,6 @@ override_dh_auto_configure:
 
 override_dh_auto_test:
 	LC_ALL=C.UTF-8 MESON_TESTTHREADS=${AVAILABLE_CORE}  meson test -C obj-*
+
+override_dh_missing:
+		dh_missing --fail-missing

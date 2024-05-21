@@ -10,10 +10,10 @@ Build-Depends: cmake,
                gobject-introspection,
                graphviz,
                libgirepository1.0-dev,
-# WirePlumber > 0.4.0 uses libglib2.0-dev (>= 2.62)
+# WirePlumber > 0.5.0 uses libglib2.0-dev (>= 2.64)
                libglib2.0-dev (>= 2.58),
                liblua5.3-dev,
-               libpipewire-0.3-dev (>= 0.3.45),
+               libpipewire-0.3-dev (>= 1.0.2),
                libspa-0.2-dev,
                meson (>= 0.60.0),
                pkg-config (>= 0.22),
@@ -31,11 +31,11 @@ Build-Depends: cmake,
                libspa-0.2-bluetooth,
                libspa-0.2-jack,
                libspa-0.2-modules,
-               pipewire (>= 0.3.45),
+               pipewire (>= 1.0.2),
                pipewire-audio-client-libraries,
                pipewire-doc,
                pipewire-pulse,
-               pipewire-bin (>= 0.3.45),
+               pipewire-bin (>= 1.0.2),
                pipewire-locales,
                pipewire-tests,
 Standards-Version: 4.5.1
@@ -44,7 +44,7 @@ Vcs-Browser: https://salsa.debian.org/utopia-team/wireplumber
 Vcs-Git: https://salsa.debian.org/utopia-team/wireplumber.git
 Rules-Requires-Root: no
 
-Package: libwireplumber-0.4-0
+Package: libwireplumber-0.5-0
 Architecture: linux-any
 Multi-Arch: same
 Depends: ${misc:Depends},
@@ -57,15 +57,15 @@ Description: Shared libraries for WirePlumber
  .
  This package contains the shared library and plugins.
 
-Package: libwireplumber-0.4-dev
+Package: libwireplumber-0.5-dev
 Section: libdevel
 Architecture: linux-any
 Multi-Arch: same
 Depends: ${misc:Depends},
          libglib2.0-dev,
-         libpipewire-0.3-dev,
-         libwireplumber-0.4-0 (= ${binary:Version}),
-         gir1.2-wp-0.4 (= ${binary:Version}),
+         libpipewire-1.0.2-dev,
+         libwireplumber-0.5-0 (= ${binary:Version}),
+         gir1.2-wp-0.5 (= ${binary:Version}),
 Description: Development files for WirePlumber
  WirePlumber is a modular session / policy manager for PipeWire and a
  GObject-based high-level library that wraps PipeWire's API, providing
@@ -78,8 +78,8 @@ Package: wireplumber
 Architecture: linux-any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         libwireplumber-0.4-0 (= ${binary:Version}),
-         pipewire (>= 0.3.45),
+         libwireplumber-0.5-0 (= ${binary:Version}),
+         pipewire (>= 1.0.2),
 Suggests: wireplumber-locales,
           libspa-0.2-bluetooth
 Recommends: pipewire-pulse
@@ -121,14 +121,14 @@ Description: locales for the wireplumber session manager for pipewire - localiza
  .
  This package contains the locales for WirePlumber.
 
-Package: gir1.2-wp-0.4
+Package: gir1.2-wp-0.5
 Section: introspection
 Architecture: linux-any
 Multi-Arch: same
 Depends: ${misc:Depends},
          ${gir:Depends},
          ${shlibs:Depends},
-         libwireplumber-0.4-0 (= ${binary:Version}),
+         libwireplumber-0.5-0 (= ${binary:Version}),
 Description: GObject introspection files for WirePlumber
  WirePlumber is a modular session / policy manager for PipeWire and a
  GObject-based high-level library that wraps PipeWire's API, providing

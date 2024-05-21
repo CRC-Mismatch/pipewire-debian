@@ -1,0 +1,46 @@
+From 0b8f78ade5ca3ddd8c4718a8111a0c105380f9f3 Mon Sep 17 00:00:00 2001
+From: Sourav Das <souravdas142@gmail.com>
+Date: Sat, 23 Mar 2024 11:09:53 +0530
+Subject: [PATCH] meson: Downgrade glib-2.68 to glib2.64 to support ubuntu
+ 20.04
+
+Ubuntu 20.04 still in support and not reached its EOL
+---
+ meson.build                 | 6 +++---
+ tests/wp/component-loader.c | 2 +-
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/meson.build b/meson.build
+index dd2881028..91c3ef448 100644
+--- a/meson.build
++++ b/meson.build
+@@ -22,10 +22,10 @@ wireplumber_doc_dir = get_option('prefix') / get_option('datadir') / 'doc' / 'wi
+ 
+ cc = meson.get_compiler('c')
+ 
+-glib_req_version = '>= 2.68'
++glib_req_version = '>= 2.64'
+ add_project_arguments([
+-    '-DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_68',
+-    '-DGLIB_VERSION_MAX_ALLOWED=GLIB_VERSION_2_68',
++    '-DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_64',
++    '-DGLIB_VERSION_MAX_ALLOWED=GLIB_VERSION_2_64',
+   ], language: 'c'
+ )
+ 
+diff --git a/tests/wp/component-loader.c b/tests/wp/component-loader.c
+index 8223c07ba..af36dd0e1 100644
+--- a/tests/wp/component-loader.c
++++ b/tests/wp/component-loader.c
+@@ -210,7 +210,7 @@ test_dependencies (TestFixture *f, gconstpointer data)
+   /* verify the order of loading the plugins was as expected */
+   const gchar *expected[] = {
+     "five", "one", "six", "two", "three", "four", "seven", NULL };
+-  g_assert_cmpstrv (f->loader->history->pdata, expected);
++  g_assert_true (g_strv_equal (f->loader->history->pdata, expected));
+ 
+   g_assert_true (wp_core_test_feature (f->base.core, "support.one"));
+   g_assert_true (wp_core_test_feature (f->base.core, "support.two"));
+-- 
+GitLab
+

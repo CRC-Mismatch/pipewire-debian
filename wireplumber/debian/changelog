@@ -1,4 +1,74 @@
-wireplumber (0.4.15-1~ubuntu20.04) focal; urgency=medium
+wireplumber (0.5.2-8~ubuntu20.04) focal; urgency=medium
+
+  Debian Package - 
+
+    - none
+
+  wireplumber - 
+
+    Changes:
+    
+      - For a complete changelog
+        see : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
+  .
+  .
+
+ -- Sourav Das <souravdas142@gmail.com>  Tue, 21 May 2024 13:54:01 +0530
+
+wireplumber (0.5.0.r1.g428462dd-1~ubuntu20.04) focal; urgency=medium
+
+  Debian Package - 
+
+    - none
+
+  wireplumber - 
+
+    Changes:
+    
+      - For a complete changelog
+        see : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
+  .
+  .
+
+ -- Sourav Das <souravdas142@gmail.com>  Sat, 23 Mar 2024 12:38:23 +0530
+
+wireplumber (0.4.17-1~ubuntu20.04) focal; urgency=medium
+
+  Debian Package - 
+
+    - none
+
+  wireplumber - 
+
+    Changes:
+    
+      - For a complete changelog
+        see : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
+  .
+  .
+
+
+ -- Sourav Das <souravdas142@gmail.com>  Wed, 21 Feb 2024 00:04:00 +0530
+
+wireplumber (0.4.16-3~ubuntu23.10) mantic; urgency=medium
+
+  Debian Package - 
+
+    - dh_missing override with fail-missing
+
+  wireplumber - 
+
+    Changes:
+    
+      - For a complete changelog
+        see : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
+  .
+  .
+
+
+ -- Sourav Das <souravdas142@gmail.com>  Fri, 01 Dec 2023 20:32:24 +0530
+
+wireplumber (0.4.15-1~ubuntu23.04) lunar; urgency=medium
 
   Debian Package - 
 
