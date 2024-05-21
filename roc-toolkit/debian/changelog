@@ -1,3 +1,15 @@
+roc-toolkit (0.3.0+ppa-2~ubuntu24.04) noble; urgency=medium
+
+  * new release 0.3.0
+
+ -- Sourav Das <souravdas142@gmail.com>  Wed, 15 May 2024 21:10:08 +0530
+
+roc-toolkit (0.3.0-1~ubuntu23.10) mantic; urgency=medium
+
+  * new release 0.3.0
+
+ -- Sourav Das <souravdas142@gmail.com>  Thu, 30 Nov 2023 20:48:20 +0530
+
 roc-toolkit (0.2.5-1~ubuntu20.04) focal; urgency=medium
 
   * new release

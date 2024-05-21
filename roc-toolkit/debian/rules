@@ -13,6 +13,8 @@
 # package maintainers to append LDFLAGS
 #export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
 
+export DEB_DH_SHLIBDEPS_ARGS_ALL = -- --ignore-missing-info -l/usr/lib/${DEB_BUILD_GNU_TYPE}/pulseaudio --warnings=5 -v
+
 _PREFIX := $(CURDIR)/debian/tmp/usr
 _LIBDIR := $(_PREFIX)/lib/$(DEB_HOST_MULTIARCH)
 
