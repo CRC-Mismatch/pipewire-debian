@@ -1,3 +1,9 @@
+liblc3 (1.1.1-3~ubuntu23.10) mantic; urgency=medium
+
+  * New upstream version 1.1.1
+
+ -- Sourav Das <souravdas142@gmail.com>  Tue, 14 May 2024 14:03:29 +0530
+
 liblc3 (1.0.4-1~ubuntu20.04) focal; urgency=medium
 
   * New upstream version 1.0.4
