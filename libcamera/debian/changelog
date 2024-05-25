@@ -1,9 +1,10 @@
-libcamera (0.ver2.0.r0.g89227a42-6~ubuntu24.04) noble; urgency=medium
+libcamera (0.ver2.0.r0.g89227a42-8~ubuntu24.04) noble; urgency=medium
 
   * New upstream version 0.2.0
+  * libcamera0.1.0 renamed to libcamera0.2
   * Bump SONAME to libcamera0.2.0
 
- -- Sourav Das <souravdas142@gmail.com>  Wed, 15 May 2024 20:13:16 +0530
+ -- Sourav Das <souravdas142@gmail.com>  Wed, 22 May 2024 23:51:18 +0530
 
 libcamera (0.ver2.0.r0.g89227a42-3~ubuntu23.10) mantic; urgency=medium
 
