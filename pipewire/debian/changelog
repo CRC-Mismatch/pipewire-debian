@@ -1,4 +1,4 @@
-pipewire (1.0.6-7~ubuntu24.04) noble; urgency=medium
+pipewire (1.0.7-1~ubuntu24.04) noble; urgency=medium
 
   Debian Package - 
 
@@ -17,7 +17,28 @@ pipewire (1.0.6-7~ubuntu24.04) noble; urgency=medium
   .
     
 
- -- Sourav Das <souravdas142@gmail.com>  Tue, 21 May 2024 08:51:49 +0530
+ -- Sourav Das <souravdas142@gmail.com>  Sat, 25 May 2024 17:26:24 +0530
+
+pipewire (1.0.6-9~ubuntu24.10) oracular; urgency=medium
+
+  Debian Package - 
+
+    - None
+
+  Pipewire -
+
+    - For more : https://gitlab.freedesktop.org/pipewire/pipewire/-/releases
+
+  .
+  . Upstream recommends to use 'WirePlumber' instead 'pipewire-media-session'      
+    to get it add another PPA,      
+    'sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream'      
+    For more instruction read : https://pipewire-debian.github.io      
+  .
+  .
+    
+
+ -- Sourav Das <souravdas142@gmail.com>  Fri, 24 May 2024 19:59:53 +0530
 
 pipewire (1.0.3-1~ubuntu20.04) focal; urgency=medium
 

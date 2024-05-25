@@ -12,6 +12,13 @@ export DEB_LDFLAGS_MAINT_APPEND = -Wl,-z,defs -Wl,--as-needed
 
 VERSION_CODENAME=$(shell sed -ne '/VERSION_CODENAME/p' /etc/os-release | cut -d"=" -f2)
 
+CONTROL_FILE_NOBLE=noble oracular
+
+ifneq (,$(filter ${VERSION_CODENAME},${CONTROL_FILE_NOBLE}))
+change_control=$(shell cp -v debian/packagefiles/control.noble debian/control)
+#remove_other_files=$(shell rm -v debian/libpipewire-0.3-0t64.install  debian/libpipewire-0.3-0t64.symbols)
+endif
+
 LTO_NON_SUPPORTED_VERSION_CODENAME=focal bionic
 ROC_NON_SUPPORTED_VERSION_CODENAME=kinetic
 LIBLC3_NON_SUPPORTED_VERSION_CODENAME=focal bionic
@@ -103,6 +110,7 @@ endif
 
 #COMPRESS_OFFLOAD=enabled
 
+
 ############################## END OF Disabling Features Conditionally ##############################
 
 AVAILABLE_CORE=$(shell nproc)
@@ -110,6 +118,7 @@ AVAILABLE_CORE=$(shell nproc)
 
 
 override_dh_auto_configure:
+	echo -e "replacing control$(change_control) $(remove_other_files) "
 	dh_auto_configure -- --buildtype=plain \
 		-Daudiotestsrc=enabled \
 		-Dauto_features=enabled \
