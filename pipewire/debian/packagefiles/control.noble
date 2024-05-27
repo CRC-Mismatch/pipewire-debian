@@ -364,8 +364,9 @@ Package: pipewire-libcamera
 Section: video
 Architecture: linux-any
 Multi-Arch: same
-Replaces: libspa-0.2-modules (<< 0.3.57)
-Breaks: libspa-0.2-modules (<< 0.3.57)
+Replaces: libspa-0.2-modules (<< 0.3.57), libspa-0.2-libcamera
+Breaks: libspa-0.2-modules (<< 0.3.57), libspa-0.2-libcamera
+Provides: libspa-0.2-libcamera
 Depends: pipewire (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}

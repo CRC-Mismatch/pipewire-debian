@@ -1,4 +1,4 @@
-pipewire (1.0.7-1~ubuntu24.04) noble; urgency=medium
+pipewire (1.0.7-3~ubuntu24.04) noble; urgency=medium
 
   Debian Package - 
 
@@ -17,7 +17,7 @@ pipewire (1.0.7-1~ubuntu24.04) noble; urgency=medium
   .
     
 
- -- Sourav Das <souravdas142@gmail.com>  Sat, 25 May 2024 17:26:24 +0530
+ -- Sourav Das <souravdas142@gmail.com>  Mon, 27 May 2024 21:12:46 +0530
 
 pipewire (1.0.6-9~ubuntu24.10) oracular; urgency=medium
 
